@@ -142,7 +142,7 @@
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:datasources:1.2">
             <datasources>
-                <datasource jndi-name="java:jboss/orpgn" pool-name="ORPGNewDS" enabled="true" use-java-context="true">
+                <datasource jndi-name="java:jboss/orpgm" pool-name="ORPGNewDS" enabled="true" use-java-context="true">
                     <connection-url>${env.COMMON_JDBC_URL}</connection-url>
                     <driver>${env.DB_DRIVER}</driver>
 					<pool>
